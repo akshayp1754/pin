@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import "./Navbar.css";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import ProjectLogo from "../ProjectLogo";
-import "boxicons";
+// import "boxicons";
 import { useDispatch, useSelector } from "react-redux";
 import { googleLogout } from "@react-oauth/google";
 import { NavLink } from "react-router-dom";
